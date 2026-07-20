@@ -140,19 +140,15 @@ importar o repositório; nenhuma configuração de build é necessária (site es
 
 ## Personalização
 
-Alguns campos usam **valores de exemplo** e devem ser substituídos. Procure pelos
-comentários `TODO` no `index.html`:
+Contato (e-mail, LinkedIn e Lattes) já está preenchido. Ajuste conforme necessário:
 
 | Local | O que ajustar |
 |-------|---------------|
-| Seção **Contato → E-mail** | Trocar `seu-email@exemplo.com` pelo e-mail real |
-| Seção **Contato → Lattes** | Inserir o link permanente do currículo Lattes |
 | Seção **Sobre** / textos | Ajustar redação conforme preferência |
 | `css/styles.css` (`:root`) | Alterar a paleta pelas variáveis de cor |
 
-> As informações profissionais foram redigidas a partir do perfil informado. Os links
-> do LinkedIn e do Lattes não puderam ser lidos automaticamente (bloqueio de robôs e
-> captcha, respectivamente); revise nome, cargo e demais dados antes de publicar.
+> As informações profissionais foram redigidas a partir do perfil informado. Revise
+> nome, cargo e textos das seções antes de publicar.
 
 ### Ativar envio real do formulário
 
