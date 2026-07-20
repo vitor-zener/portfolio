@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vitor Zener — Desenvolvimento de Negócios em Infraestrutura Elétrica</title>
+  <meta
+    name="description"
+    content="Portfólio de Vitor Zener — Business Developer em infraestrutura elétrica, atuação técnico-comercial em painéis, gestão de energia e cadeia de minerais críticos no Norte do Brasil."
+  />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Vitor Zener — Infraestrutura Elétrica" />
+  <meta property="og:description" content="Desenvolvimento de negócios técnico-comercial em infraestrutura elétrica e gestão de energia." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <!-- ===================== NAVEGAÇÃO ===================== -->
+  <header class="nav" id="topo">
+    <div class="container nav__inner">
+      <a href="#topo" class="brand" aria-label="Vitor Zener — início">
+        <span class="brand__mark" aria-hidden="true">VZ</span>
+        <span class="brand__name">Vitor&nbsp;Zener</span>
+      </a>
+
+      <nav class="nav__links" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#atuacao">Atuação</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a href="#contato" class="btn btn--ghost nav__cta">Fale comigo</a>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Business Development · Siemens SI-EP</p>
+          <h1 class="hero__title">
+            Engenharia elétrica<br />que fecha negócios.
+          </h1>
+          <p class="hero__lead">
+            Atuação técnico-comercial em infraestrutura elétrica: da especificação
+            de equipamentos e codificação de painéis à proposta que o cliente aprova.
+            Base no Pará, cobertura na Região Norte e foco na cadeia de minerais críticos.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#atuacao" class="btn btn--solid">Saiba mais</a>
+            <a href="#contato" class="btn btn--ghost">Iniciar conversa</a>
+          </div>
+
+          <dl class="hero__stats">
+            <div>
+              <dt>Região</dt>
+              <dd>Norte do Brasil</dd>
+            </div>
+            <div>
+              <dt>Setor</dt>
+              <dd>Smart Infrastructure</dd>
+            </div>
+            <div>
+              <dt>Foco</dt>
+              <dd>Minerais críticos</dd>
+            </div>
+          </dl>
+        </div>
+
+        <!-- ASSINATURA VISUAL: diagrama unifilar animado -->
+        <div class="hero__diagram" aria-hidden="true">
+          <svg viewBox="0 0 260 420" fill="none" xmlns="http://www.w3.org/2000/svg" class="sld">
+            <!-- Barramento vertical -->
+            <line class="sld__bus" x1="130" y1="20" x2="130" y2="400" />
+
+            <!-- Fonte -->
+            <circle class="sld__node" cx="130" cy="30" r="6" />
+            <text class="sld__label" x="150" y="34">FONTE</text>
+
+            <!-- Medição -->
+            <circle class="sld__ring" cx="130" cy="110" r="14" />
+            <path class="sld__wave" d="M122 110 q4 -8 8 0 q4 8 8 0" />
+            <text class="sld__label" x="156" y="114">MEDIÇÃO</text>
+
+            <!-- Disjuntor (bloco) -->
+            <rect class="sld__breaker" x="118" y="180" width="24" height="34" rx="3" />
+            <line class="sld__slash" x1="122" y1="210" x2="138" y2="184" />
+            <text class="sld__label" x="156" y="201">DISJUNTOR</text>
+
+            <!-- Derivação de cargas -->
+            <line class="sld__branch" x1="130" y1="300" x2="70" y2="340" />
+            <line class="sld__branch" x1="130" y1="300" x2="190" y2="340" />
+            <rect class="sld__load" x="56" y="342" width="28" height="22" rx="2" />
+            <rect class="sld__load" x="176" y="342" width="28" height="22" rx="2" />
+            <text class="sld__label sld__label--c" x="70" y="384">CARGA</text>
+            <text class="sld__label sld__label--c" x="190" y="384">CARGA</text>
+
+            <!-- Pulso de corrente -->
+            <circle class="sld__pulse" cx="130" cy="20" r="4" />
+          </svg>
+          <p class="sld__caption">Diagrama unifilar · fluxo de energia</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE ===================== -->
+    <section class="section" id="sobre">
+      <div class="container section__grid">
+        <div class="section__head">
+          <p class="eyebrow">01 — Sobre</p>
+          <h2 class="section__title">Técnico na origem, comercial no resultado.</h2>
+        </div>
+        <div class="section__body">
+          <p>
+            Sou <strong>Business Developer na Siemens Smart Infrastructure — Electrical
+            Products (SI-EP)</strong>, responsável pela Região Norte do Brasil, com base
+            no Pará e cobertura em Amazonas, Amapá, Maranhão e Roraima.
+          </p>
+          <p>
+            Meu trabalho une o rigor técnico da engenharia elétrica à leitura comercial de
+            cada oportunidade: especificação de equipamentos, geração de listas de materiais,
+            codificação MLFB de painéis industriais e sistemas de gestão de energia — sempre
+            traduzidos em propostas claras para o cliente.
+          </p>
+          <p>
+            A atuação tem centro de gravidade na área de mineração de Carajás e na cadeia de
+            minerais críticos, onde infraestrutura elétrica confiável é condição para operar.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ATUAÇÃO ===================== -->
+    <section class="section section--alt" id="atuacao">
+      <div class="container">
+        <div class="section__head section__head--center">
+          <p class="eyebrow">02 — Atuação</p>
+          <h2 class="section__title">Onde eu entrego valor</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <span class="card__code">01</span>
+            <h3 class="card__title">Especificação técnica</h3>
+            <p class="card__text">
+              Definição de equipamentos e componentes para painéis elétricos industriais,
+              alinhando norma, aplicação e custo.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card__code">02</span>
+            <h3 class="card__title">Codificação MLFB</h3>
+            <p class="card__text">
+              Tradução de requisitos em códigos de produto Siemens e listas de materiais
+              prontas para cotação e pedido.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card__code">03</span>
+            <h3 class="card__title">Propostas comerciais</h3>
+            <p class="card__text">
+              Construção de propostas técnico-comerciais que conectam a solução ao problema
+              real do cliente e ao prazo do projeto.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card__code">04</span>
+            <h3 class="card__title">Gestão de energia</h3>
+            <p class="card__text">
+              Sistemas de medição e gestão de energia aplicados a operações industriais e de
+              mineração na Região Norte.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="section" id="contato">
+      <div class="container contato__grid">
+        <div class="contato__intro">
+          <p class="eyebrow">03 — Contato</p>
+          <h2 class="section__title">Vamos conversar sobre o seu projeto</h2>
+          <p class="contato__text">
+            Preencha os campos ao lado. Informe o CEP e a cidade é preenchida
+            automaticamente via ViaCEP.
+          </p>
+
+          <ul class="contato__links">
+            <li>
+              <span class="contato__k">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/vitor-zener/" target="_blank" rel="noopener">
+                /in/vitor-zener
+              </a>
+            </li>
+            <li>
+              <span class="contato__k">Lattes</span>
+              <!-- TODO: substituir pelo link permanente do currículo Lattes -->
+              <a href="http://lattes.cnpq.br/" target="_blank" rel="noopener">Currículo CNPq</a>
+            </li>
+            <li>
+              <span class="contato__k">E-mail</span>
+              <!-- TODO: substituir pelo e-mail real -->
+              <a href="mailto:seu-email@exemplo.com">seu-email@exemplo.com</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Formulário -->
+        <form class="form" id="contatoForm" novalidate>
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" autocomplete="name" required />
+            <small class="field__error" data-error-for="nome"></small>
+          </div>
+
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" autocomplete="email" required />
+            <small class="field__error" data-error-for="email"></small>
+          </div>
+
+          <div class="field field--cep">
+            <div>
+              <label for="cep">CEP</label>
+              <input
+                type="text"
+                id="cep"
+                name="cep"
+                inputmode="numeric"
+                maxlength="9"
+                placeholder="00000-000"
+                autocomplete="postal-code"
+              />
+              <small class="field__hint" id="cepStatus"></small>
+            </div>
+            <div>
+              <label for="cidade">Cidade / UF</label>
+              <input type="text" id="cidade" name="cidade" readonly placeholder="preenchido via ViaCEP" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <small class="field__error" data-error-for="mensagem"></small>
+          </div>
+
+          <button type="submit" class="btn btn--solid btn--block">Enviar mensagem</button>
+
+          <!-- Retorno do CTA (JS) -->
+          <div class="form__success" id="formSuccess" hidden role="status" aria-live="polite">
+            <strong id="successTitle">Mensagem registrada.</strong>
+            <span id="successText"></span>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="footer__brand">Vitor Zener</span>
+      <span class="footer__note">Infraestrutura elétrica · Região Norte · Brasil</span>
+      <span class="footer__copy">© <span id="ano"></span> — Todos os direitos reservados</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
